@@ -9,4 +9,4 @@ p(meta). 16 Sep 2016 - ShangHai
 
 Today is a special day!
 
-![My helpful screenshot]({{ site.url }}/assets/imgs/own.jpg)
+![My helpful screenshot]({{ site.url }}/assets/imgs/own.JPG)
