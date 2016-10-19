@@ -1,6 +1,7 @@
 ---
 layout: post
 title: TomDoc - Reasonable Ruby Documentation
+categories: [Tech]
 ---
 
 h1. {{ page.title }}

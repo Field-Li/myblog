@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Open Source (Almost) Everything
+categories: [Tech]
 ---
 
 {{ page.title }}

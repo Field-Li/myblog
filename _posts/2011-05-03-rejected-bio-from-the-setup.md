@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Rejected Bio from The Setup
+categories: [Tech]
 ---
 
 {{ page.title }}
