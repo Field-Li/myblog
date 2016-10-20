@@ -135,6 +135,14 @@ public class Test extends Professor{
 
 必须明确，类Test确实是继承了类Professor（包括它的clone方法），所以在类Test中可以调用自己的clone方法。但类Professor的protected方法对其不同包子类Test来说，是不可见的。
 
+总结下：
+
+protected 访问权限修饰，可在这两种方式下可访问：
+
+1、在当前子类中访问父类的protected方法。
+
+2、不在当前子类中访问该方法，但该方法所在类与调用该方法所在类在同一个包下
+
 国内的很多Java书籍在介绍访问权限时，一般都这样描述，太过草率：
 
 | 		        		| public        | protected	    | default       | private  |
