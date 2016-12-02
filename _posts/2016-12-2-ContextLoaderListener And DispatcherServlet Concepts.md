@@ -68,7 +68,7 @@ d. When ContextLoaderListener is used in tandem with DispatcherServlet, a root w
 
 Refer to the diagram below from the Spring documentation. 
 
- 
+ ![My helpful screenshot]({{ site.url }}/assets/techPic/spring1.gif)
 
 QUESTION
 ---------
@@ -142,7 +142,8 @@ Also, depending on web application context capabilities may make your applicatio
 
 Difference between servlet and root contextSpring allows you to build multilevel application context hierarchies, so the required bean will be fetched from the parent context if it's not present in the current aplication context. In web apps as default there are two hierarchy levels, root and servlet contexts: 
 
-enter image description here 
+
+![My helpful screenshot]({{ site.url }}/assets/techPic/spring2.png)
 
 such thing allows you to run some services as the singletons for the entire application(Spring Security beans and basic database access services typically reside here) and another as separated services in the corresponding servlets to avoid name clashes between beans. For example one servlet context will be serving the web pages and another will be implementing a stateless web service. 
 This two level separation comes out of the box when you use the spring servlet classes: to configure the root application context you should use context-param tag in your web.xml 
