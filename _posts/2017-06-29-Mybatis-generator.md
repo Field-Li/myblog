@@ -18,7 +18,7 @@ categories: [Tech]
 <generatorConfiguration>
  
     <!-- !!!! Driver Class Path !!!! -->
- <classPathEntry location="D:\Users\lifana\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar"/>
+ <classPathEntry location="D:\Users\.m2\repository\mysql\mysql-connector-java\5.1.35\mysql-connector-java-5.1.35.jar"/>
  
     <context id="context" targetRuntime="MyBatis3">
         <commentGenerator>
@@ -28,8 +28,8 @@ categories: [Tech]
  
         <!-- !!!! Database Configurations !!!! -->
  <jdbcConnection driverClass="com.mysql.jdbc.Driver"
- connectionURL="jdbc:mysql://groupwormhole.mysql.db.fat.qa.nt.ctripcorp.com:55111/groupwormholedb?characterEncoding=utf8"
- userId="us_test_lifana"
+ connectionURL="jdbc:mysql://groupwormholedb?characterEncoding=utf8"
+ userId="xxx"
  password="rootroot"/>
  
         <javaTypeResolver>
